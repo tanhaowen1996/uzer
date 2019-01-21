@@ -1,0 +1,19 @@
+.second-bg{
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+.second-left-content{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.second-right-content{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.second-mid-content{
+    padding-top: 50px;
+    text-align: center;
+}
