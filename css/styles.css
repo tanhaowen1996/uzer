@@ -4,33 +4,42 @@ html,body{
     float: left;
     margin: 0;           
 }
-.first-bg{
+.page{
     height: 100%;
     width: 100%;
-    background-color: rgb(76, 122, 207);
 }
 .head-navigation{
-    padding-top: 0;
-    display: table;
     height: 60px;
-    width: 100%;
-    float: left;
-    vertical-align: middle;
+    width: 1200px;
     background-color: rgba(255, 255, 255, 0);
-    position:fixed;
+    position: fixed;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    z-index: 999;
 }
 .logo-title{
-    height: 100%;
     width: 20%;
     float: left;
     padding-left: 10%;
-    vertical-align: middle;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 #navigation{
     float: left;
     width: 60%;
-    height: 100%;
     padding-left: 10%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.first-bg{
+    height: 100%;
+    width: 1200px;
+    background-color: rgb(76, 122, 207);
+    margin-left: auto;
+    margin-right: auto;
 }
 #navigation>li{
     width: 15%;
@@ -39,19 +48,207 @@ html,body{
     list-style-type: none;
 }
 .first-bg.first-content{
-    width: 100%;
+    width: 1200px;
     height: 100%;
     float: left;
 }
 .first-left-content{
-    height: 100%;
     width: 40%;
     float: left;
-    vertical-align: middle;
     padding-left: 10%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 }
 .first-right-content{
     height: 100%;
     width: 50%;
+    float: left;
+}
+
+.second-bg{
+    width: 100%;
+    height: 727px;
+    position: relative;
+}
+.second-mid-content{
+    top: 200px;
+    height: 116px;
+    width: 100%;
+    position: absolute;
+    z-index: 10; 
+}
+.second-mid-content>div{
+    text-align: center;
+}
+.second-title{
+    height: 68px;
+    font-size: 48px;
+}
+.second-sub-title{
+    height: 20px;
+    font-size: 14px;
+    marker-end: 0;
+}
+.second-left-content{
+    width: 50%;
+    height: 100%;
+    float: left;
+    position: absolute;
+    z-index: 9; 
+}
+.second-right-content{
+    width: 50%;
+    height: 100%;
+    float: left;
+    position: absolute;
+    left: 50%;
+    z-index: 9; 
+}
+
+.third-bg{
+    width: 100%;
+    height: 572px;
+}
+.third-content{
+    height: 465px;
+    width: 1200px;
+    margin: 0 auto;
+}
+.third-left{
+    float: left;
+    width: 412px;
+}
+.third-left>img{
+    width: 342px;
+    height: 348.86px;
+    float: right;
+}
+.third-right{
+    float: left;
+    width: 320px;
+    height: 465px;
+    margin-left: 140px;
+}
+.third-right-all{
+    width: 170px;
+    height: 345px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.third-right-title{
+    width: 170px;
+    height: 102px;
+    font-size: 37px;
+}
+.third-right-title-sub{
+    width: 170px;
+    height: 50px;
+    font-size: 18px;
+}
+.third-right-content{
+    width: 170px;
+    height: 28px;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.fourth-bg{
+    height: 280px;
+    width: 100%;
+    text-align: center;
+}
+.fourth-title{
+    font-size: 24px;
+    line-height: 34px;
+}
+.fourth-title-sub{
+    font-size: 14px;
+    line-height: 34px;
+}
+.fourth-link{
+    font-size: 14px;
+    line-height: 34px;
+}
+
+.fifth-bg{
+    height: 173px;
+    width: 100%;
+}
+.fifth-content{
+    width: 1200px;
+    height: 118px;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    transform: rotateY(-50%);
+    text-align: center;
+}
+.fifth-title{
+    font-size: 24px;
+    line-height: 34px;
+}
+.fifth-title>a{
+    text-decoration: none;
+}
+
+
+.sixth-bg{
+    height: 280px;
+    width: 100%;
+}
+.sixth-content{
+    height: 180px;
+    width: 1200px;
+    margin: 0 auto;
+    float: left;
+}
+.sixth-logo{
+    width: 235px;
+    height: 100%;
+    float: left;
+}
+.sixth-product{
+    float: left;
+    height: 100%;
+    width: 165px;
+}
+.sixth-product>li{
+    list-style-type: none;
+}
+.sixth-company{
+    float: left;
+    height: 100%;
+    width: 165px;
+}
+.sixth-company>li{
+    list-style-type: none;
+}
+.sixth-contact{
+    float: left;
+    height: 100%;
+    width: 165px;
+}
+.sixth-contact>li{
+    list-style-type: none;
+}
+.sixth-right{
+    float: left;
+    height: 100%;
+    width: 300px;
+}
+.sixth-right.sixth-Wechart{
+    width: 100px;
+    height: 100%;
+    float: left;
+}
+sixth-Wechart>img{
+    height: 100px;
+    width: 100px;
+}
+.sixth-right.sixth-QQ{
+    width: 100px;
+    height: 100%;
     float: left;
 }
