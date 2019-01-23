@@ -8,6 +8,9 @@ html,body{
     height: 100%;
     width: 100%;
 }
+::-webkit-scrollbar{
+    width: 6px;
+}
 .head-navigation{
     height: 60px;
     width: 1200px;
@@ -21,7 +24,7 @@ html,body{
 .logo-title{
     width: 20%;
     float: left;
-    padding-left: 10%;
+    padding-left: 5%;
     position: relative;
     top: 50%;
     transform: translateY(-50%);
@@ -47,7 +50,7 @@ html,body{
     text-align: center;
     list-style-type: none;
 }
-.first-bg.first-content{
+.first-content{
     width: 1200px;
     height: 100%;
     float: left;
@@ -55,21 +58,65 @@ html,body{
 .first-left-content{
     width: 40%;
     float: left;
-    padding-left: 10%;
+    padding-left: 5%;
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 40%;
+    transform: translateY(-40%);
+}
+.first-left-div1{
+    font-size: 46px;
+    height: 70px;
+    color: #ffffff;
+}
+.first-left-div2{
+    font-size: 24px;
+    height: 50px;
+    color: #ffffff;
+}
+.first-left-div3{
+    font-size: 14px;
+    height: 60px;
+    color: #ffffff;
 }
 .first-right-content{
     height: 100%;
     width: 50%;
     float: left;
 }
+.first-button1{
+    height: 40px;
+    width: 130px;
+    text-align: center;
+    background-color: #000641;
+    border: none;
+    color: #ffffff;
+}
+.first-button2{
+    height: 40px;
+    width: 130px;
+    text-align: center;
+    background-color: #ffffff00;
+    color: #ffffff;
+    position: relative;
+    left: 30px;
+
+}
+.play {
+    float: left;
+    box-sizing: border-box;
+    width: 10px;
+    height: 10px;
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 5px 0px 5px 10px;
+    border-color: transparent transparent transparent #ffffff;
+}
 
 .second-bg{
     width: 100%;
     height: 727px;
     position: relative;
+    background-color: gray;
 }
 .second-mid-content{
     top: 200px;
@@ -82,7 +129,7 @@ html,body{
     text-align: center;
 }
 .second-title{
-    height: 68px;
+    height: 93px;
     font-size: 48px;
 }
 .second-sub-title{
@@ -109,11 +156,14 @@ html,body{
 .third-bg{
     width: 100%;
     height: 572px;
+    background-color: darkolivegreen;
 }
 .third-content{
     height: 465px;
     width: 1200px;
     margin: 0 auto;
+    position: relative;
+    top: 100px;
 }
 .third-left{
     float: left;
@@ -139,12 +189,13 @@ html,body{
 }
 .third-right-title{
     width: 170px;
-    height: 102px;
+    height: 122px;
     font-size: 37px;
+    line-height: 50px;
 }
 .third-right-title-sub{
     width: 170px;
-    height: 50px;
+    height: 80px;
     font-size: 18px;
 }
 .third-right-content{
@@ -158,41 +209,58 @@ html,body{
     height: 280px;
     width: 100%;
     text-align: center;
+    background-color: aqua;
 }
 .fourth-title{
     font-size: 24px;
     line-height: 34px;
+    position: relative;
+    top: 89px;
 }
 .fourth-title-sub{
     font-size: 14px;
     line-height: 34px;
+    position: relative;
+    top: 90px;
 }
 .fourth-link{
     font-size: 14px;
     line-height: 34px;
+    position: relative;
+    top: 91px;
 }
 
 .fifth-bg{
     height: 173px;
     width: 100%;
+    background-color: rgb(0, 0, 85);
 }
 .fifth-content{
     width: 1200px;
     height: 118px;
     margin: 0 auto;
     position: relative;
-    top: 50%;
-    transform: rotateY(-50%);
-    text-align: center;
+    top: 15.8%;
 }
 .fifth-title{
     font-size: 24px;
     line-height: 34px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: 21%;
 }
 .fifth-title>a{
     text-decoration: none;
 }
-
+.fifth-net{
+    line-height: 34px;
+    text-align: center;
+    font-size: 14px;
+    color: rgb(0, 119, 255);
+    position: relative;
+    top: 24%;
+}
 
 .sixth-bg{
     height: 280px;
@@ -202,7 +270,8 @@ html,body{
     height: 180px;
     width: 1200px;
     margin: 0 auto;
-    float: left;
+    position: relative;
+    top: 20%;
 }
 .sixth-logo{
     width: 235px;
@@ -213,42 +282,78 @@ html,body{
     float: left;
     height: 100%;
     width: 165px;
+    line-height: 34px;
 }
 .sixth-product>li{
     list-style-type: none;
+    font-size: 12px;
+    line-height: 25px;
 }
 .sixth-company{
     float: left;
     height: 100%;
     width: 165px;
+    line-height: 34px;
 }
 .sixth-company>li{
     list-style-type: none;
+    font-size: 12px;
+    line-height: 25px;
 }
 .sixth-contact{
     float: left;
     height: 100%;
     width: 165px;
+    line-height: 34px;
 }
 .sixth-contact>li{
     list-style-type: none;
+    font-size: 12px;
+    line-height: 25px;
 }
 .sixth-right{
     float: left;
     height: 100%;
     width: 300px;
 }
-.sixth-right.sixth-Wechart{
-    width: 100px;
+.sixth-Wechart{
+    width: 150px;
     height: 100%;
     float: left;
 }
-sixth-Wechart>img{
+.sixth-Wechart>img{
     height: 100px;
     width: 100px;
 }
-.sixth-right.sixth-QQ{
+.sixth-Wechart>p{
+    width: 100px;
+    font-size: 12px;
+    text-align: center;
+}
+.sixth-QQ{
     width: 100px;
     height: 100%;
-    float: left;
+    float: right;
+    text-align: center;
+}
+.sixth-QQ>img{
+    text-align: center;
+}
+.sixth-QQ>p{
+    font-size: 12px;
+    text-align: center;
+}
+
+.bottom{
+    margin: 0 auto;
+    width: 90%;
+    height: 15px;
+    text-align: center;
+}
+.bottom>hr{
+    margin: 0px auto;
+}
+.bottom>p{
+    margin: 12px auto;
+    font-size: 12px;
 }
