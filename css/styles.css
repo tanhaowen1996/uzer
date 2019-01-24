@@ -1,61 +1,109 @@
-html,body{
+html,
+body {
     height: 100%;
     width: 100%;
     float: left;
-    margin: 0;           
+    margin: 0;
 }
-.page{
+
+.page {
     height: 100%;
     width: 100%;
 }
-::-webkit-scrollbar{
+
+::-webkit-scrollbar {
     width: 6px;
 }
-.head-navigation{
-    height: 60px;
-    width: 1200px;
+
+.head-navigation {
+    height: 58px;
+    width: 100%;
     background-color: rgba(255, 255, 255, 0);
     position: fixed;
     margin: 0 auto;
     left: 0;
     right: 0;
     z-index: 999;
+    text-align: center;
 }
-.logo-title{
-    width: 20%;
+
+.nav-title {
+    height: 58px;
+    width: 1200px;
+    background-color: rgba(255, 255, 255, 0);
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.nav-logo {
+    width: 240px;
     float: left;
-    padding-left: 5%;
     position: relative;
+    left: 25px;
     top: 50%;
     transform: translateY(-50%);
 }
-#navigation{
+
+.nav-logo-img {
+    height: 27px;
+}
+
+.navigation {
     float: left;
-    width: 60%;
+    width: 416px;
     padding-left: 10%;
     position: relative;
+    left: 135px;
     top: 50%;
     transform: translateY(-50%);
 }
-.first-bg{
+
+.navigation>li {
+    list-style-type: none;
+    float: left;
+    height: 100%;
+    width: 104px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.nav-button {
+    height: 58px;
+    width: 20%;
+    float: left;
+    position: relative;
+    left: 135px;
+}
+
+.nav-button>button {
+    height: 32px;
+    width: 100px;
+    text-align: center;
+    background-color: #00074100;
+    border-bottom-color: #a7a4a4;
+    color: #a7a4a4;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.first-bg {
     height: 100%;
     width: 1200px;
     background-color: rgb(76, 122, 207);
     margin-left: auto;
     margin-right: auto;
 }
-#navigation>li{
-    width: 15%;
-    float: left;
-    text-align: center;
-    list-style-type: none;
-}
-.first-content{
+
+.first-content {
     width: 1200px;
     height: 100%;
     float: left;
 }
-.first-left-content{
+
+.first-left-content {
     width: 40%;
     float: left;
     padding-left: 5%;
@@ -63,27 +111,32 @@ html,body{
     top: 40%;
     transform: translateY(-40%);
 }
-.first-left-div1{
+
+.first-left-div1 {
     font-size: 46px;
     height: 70px;
     color: #ffffff;
 }
-.first-left-div2{
+
+.first-left-div2 {
     font-size: 24px;
     height: 50px;
     color: #ffffff;
 }
-.first-left-div3{
+
+.first-left-div3 {
     font-size: 14px;
     height: 60px;
     color: #ffffff;
 }
-.first-right-content{
+
+.first-right-content {
     height: 100%;
     width: 50%;
     float: left;
 }
-.first-button1{
+
+.first-button1 {
     height: 40px;
     width: 130px;
     text-align: center;
@@ -91,7 +144,8 @@ html,body{
     border: none;
     color: #ffffff;
 }
-.first-button2{
+
+.first-button2 {
     height: 40px;
     width: 130px;
     text-align: center;
@@ -101,6 +155,7 @@ html,body{
     left: 30px;
 
 }
+
 .play {
     float: left;
     box-sizing: border-box;
@@ -112,137 +167,156 @@ html,body{
     border-color: transparent transparent transparent #ffffff;
 }
 
-.second-bg{
+.second-bg {
     width: 100%;
     height: 727px;
     position: relative;
     background-color: gray;
 }
-.second-mid-content{
+
+.second-mid-content {
     top: 200px;
     height: 116px;
     width: 100%;
     position: absolute;
-    z-index: 10; 
+    z-index: 10;
 }
-.second-mid-content>div{
+
+.second-mid-content>div {
     text-align: center;
 }
-.second-title{
+
+.second-title {
     height: 93px;
     font-size: 48px;
 }
-.second-sub-title{
+
+.second-sub-title {
     height: 20px;
     font-size: 14px;
     marker-end: 0;
 }
-.second-left-content{
+
+.second-left-content {
     width: 50%;
     height: 100%;
     float: left;
     position: absolute;
-    z-index: 9; 
+    z-index: 9;
 }
-.second-right-content{
+
+.second-right-content {
     width: 50%;
     height: 100%;
     float: left;
     position: absolute;
     left: 50%;
-    z-index: 9; 
+    z-index: 9;
 }
 
-.third-bg{
+.third-bg {
     width: 100%;
     height: 572px;
     background-color: darkolivegreen;
 }
-.third-content{
+
+.third-content {
     height: 465px;
     width: 1200px;
     margin: 0 auto;
     position: relative;
     top: 100px;
 }
-.third-left{
+
+.third-left {
     float: left;
     width: 412px;
 }
-.third-left>img{
+
+.third-left>img {
     width: 342px;
     height: 348.86px;
     float: right;
 }
-.third-right{
+
+.third-right {
     float: left;
     width: 320px;
     height: 465px;
     margin-left: 140px;
 }
-.third-right-all{
+
+.third-right-all {
     width: 170px;
     height: 345px;
     position: relative;
     top: 50%;
     transform: translateY(-50%);
 }
-.third-right-title{
+
+.third-right-title {
     width: 170px;
     height: 122px;
     font-size: 37px;
     line-height: 50px;
 }
-.third-right-title-sub{
+
+.third-right-title-sub {
     width: 170px;
     height: 80px;
     font-size: 18px;
 }
-.third-right-content{
+
+.third-right-content {
     width: 170px;
     height: 28px;
     line-height: 28px;
     font-size: 14px;
 }
 
-.fourth-bg{
+.fourth-bg {
     height: 280px;
     width: 100%;
     text-align: center;
     background-color: aqua;
 }
-.fourth-title{
+
+.fourth-title {
     font-size: 24px;
     line-height: 34px;
     position: relative;
     top: 89px;
 }
-.fourth-title-sub{
+
+.fourth-title-sub {
     font-size: 14px;
     line-height: 34px;
     position: relative;
     top: 90px;
 }
-.fourth-link{
+
+.fourth-link {
     font-size: 14px;
     line-height: 34px;
     position: relative;
     top: 91px;
 }
 
-.fifth-bg{
+.fifth-bg {
     height: 173px;
     width: 100%;
     background-color: rgb(0, 0, 85);
 }
-.fifth-content{
+
+.fifth-content {
     width: 1200px;
     height: 118px;
     margin: 0 auto;
     position: relative;
     top: 15.8%;
 }
-.fifth-title{
+
+.fifth-title {
     font-size: 24px;
     line-height: 34px;
     text-align: center;
@@ -250,10 +324,12 @@ html,body{
     position: relative;
     top: 21%;
 }
-.fifth-title>a{
+
+.fifth-title>a {
     text-decoration: none;
 }
-.fifth-net{
+
+.fifth-net {
     line-height: 34px;
     text-align: center;
     font-size: 14px;
@@ -262,98 +338,115 @@ html,body{
     top: 24%;
 }
 
-.sixth-bg{
+.sixth-bg {
     height: 280px;
     width: 100%;
 }
-.sixth-content{
+
+.sixth-content {
     height: 180px;
     width: 1200px;
     margin: 0 auto;
     position: relative;
     top: 20%;
 }
-.sixth-logo{
+
+.sixth-logo {
     width: 235px;
     height: 100%;
     float: left;
 }
-.sixth-product{
+
+.sixth-product {
     float: left;
     height: 100%;
     width: 165px;
     line-height: 34px;
 }
-.sixth-product>li{
+
+.sixth-product>li {
     list-style-type: none;
     font-size: 12px;
     line-height: 25px;
 }
-.sixth-company{
+
+.sixth-company {
     float: left;
     height: 100%;
     width: 165px;
     line-height: 34px;
 }
-.sixth-company>li{
+
+.sixth-company>li {
     list-style-type: none;
     font-size: 12px;
     line-height: 25px;
 }
-.sixth-contact{
+
+.sixth-contact {
     float: left;
     height: 100%;
     width: 165px;
     line-height: 34px;
 }
-.sixth-contact>li{
+
+.sixth-contact>li {
     list-style-type: none;
     font-size: 12px;
     line-height: 25px;
 }
-.sixth-right{
+
+.sixth-right {
     float: left;
     height: 100%;
     width: 300px;
 }
-.sixth-Wechart{
+
+.sixth-Wechart {
     width: 150px;
     height: 100%;
     float: left;
 }
-.sixth-Wechart>img{
+
+.sixth-Wechart>img {
     height: 100px;
     width: 100px;
 }
-.sixth-Wechart>p{
+
+.sixth-Wechart>p {
     width: 100px;
     font-size: 12px;
     text-align: center;
 }
-.sixth-QQ{
+
+.sixth-QQ {
     width: 100px;
     height: 100%;
     float: right;
     text-align: center;
 }
-.sixth-QQ>img{
+
+.sixth-QQ>img {
     text-align: center;
 }
-.sixth-QQ>p{
+
+.sixth-QQ>p {
     font-size: 12px;
     text-align: center;
 }
 
-.bottom{
+.bottom {
     margin: 0 auto;
     width: 90%;
     height: 15px;
     text-align: center;
 }
-.bottom>hr{
+
+.bottom>hr {
     margin: 0px auto;
 }
-.bottom>p{
+
+.bottom>p {
     margin: 12px auto;
     font-size: 12px;
 }

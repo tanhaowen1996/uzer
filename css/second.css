@@ -1,0 +1,343 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    float: left;
+    margin: 0;
+}
+
+.head-navigation {
+    height: 58px;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    text-align: center;
+}
+
+.nav-title {
+    height: 58px;
+    width: 1200px;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.nav-logo {
+    width: 240px;
+    float: left;
+    position: relative;
+    left: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.nav-logo-img {
+    height: 27px;
+}
+
+.navigation {
+    float: left;
+    width: 416px;
+    padding-left: 10%;
+    position: relative;
+    left: 135px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.navigation>li {
+    list-style-type: none;
+    float: left;
+    height: 100%;
+    width: 104px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.nav-button {
+    height: 58px;
+    width: 20%;
+    float: left;
+    position: relative;
+    left: 135px;
+}
+
+.nav-button>button {
+    height: 32px;
+    width: 100px;
+    text-align: center;
+    background-color: #00074100;
+    border-bottom-color: #a7a4a4;
+    color: #a7a4a4;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.SDK-first {
+    height: 625px;
+    width: 100%;
+    background-color: #e0e0e0;
+}
+
+.SDK-first-section {
+    height: 465px;
+    width: 1200px;
+    position: relative;
+    margin: 0 auto;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.SDK-first-left {
+    height: 465px;
+    width: 600px;
+    float: left;
+}
+
+.SDK-first-title {
+    line-height: 50px;
+    font-size: 49px;
+    text-align: center;
+}
+
+.SDK-first-titlesub {
+    line-height: 50px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.SDK-first-title-cz {
+    line-height: 50px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.SDK-first-button {
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+
+.SDK-first-button>button {
+    height: 40px;
+    width: 170px;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(93, 126, 233);
+    border: none;
+}
+
+.SDK-first-content {
+    width: 450px;
+    position: relative;
+    margin-left: 0;
+    margin-right: 0;
+    font-size: 16px;
+    text-align: justify;
+    left: 78px;
+    top: 30px;
+}
+
+.SDK-first-right {
+    height: 465px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SDK-first-right>img {
+    height: 331px;
+    width: 445px;
+}
+
+.SDK-second {
+    width: 100%;
+    height: 636px;
+}
+
+.SDK-second-section {
+    width: 1200px;
+    height: 496px;
+    margin: 0 auto;
+}
+
+.SDK-second-title {
+    text-align: center;
+    font-size: 52px;
+    line-height: 200px;
+}
+
+.SDK-second-content {
+    height: 340px;
+    width: 1200px;
+}
+
+.SDK-second-content>div {
+    height: 335px;
+    width: 280px;
+    text-align: center;
+    position: relative;
+    left: 80px;
+    float: left;
+}
+
+.SDK-second-border {
+    width: 240px;
+    height: 335px;
+    border: 1px solid rgb(199, 199, 199);
+    float: left;
+    position: relative;
+}
+
+.SDK-second-border>div {
+    position: relative;
+    top: 40px;
+}
+
+.SDK-second-content-explanation {
+    position: relative;
+    left: 20px;
+    width: 200px;
+    text-align: justify;
+}
+
+.SDK-third {
+    width: 100%;
+    height: 574px;
+    background-color: #e0e0e0;
+}
+
+.SDK-third-section {
+    width: 1200px;
+    height: 435px;
+    position: relative;
+    margin: 0 auto;
+    top: 70px;
+}
+
+.SDK-third-title {
+    font-size: 52px;
+    text-align: center;
+}
+
+
+.SDK-fourth {
+    height: 280px;
+    width: 100%;
+}
+
+.SDK-fourth-section {
+    height: 180px;
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    top: 20%;
+}
+
+.SDK-fourth-logo {
+    width: 235px;
+    height: 100%;
+    float: left;
+}
+
+.SDK-fourth-product {
+    float: left;
+    height: 100%;
+    width: 165px;
+    line-height: 34px;
+}
+
+.SDK-fourth-product>li {
+    list-style-type: none;
+    font-size: 12px;
+    line-height: 25px;
+}
+
+.SDK-fourth-company {
+    float: left;
+    height: 100%;
+    width: 165px;
+    line-height: 34px;
+}
+
+.SDK-fourth-company>li {
+    list-style-type: none;
+    font-size: 12px;
+    line-height: 25px;
+}
+
+.SDK-fourth-contact {
+    float: left;
+    height: 100%;
+    width: 165px;
+    line-height: 34px;
+}
+
+.SDK-fourth-contact>li {
+    list-style-type: none;
+    font-size: 12px;
+    line-height: 25px;
+}
+
+.SDK-fourth-right {
+    float: left;
+    height: 100%;
+    width: 300px;
+}
+
+.SDK-fourth-Wechart {
+    width: 150px;
+    height: 100%;
+    float: left;
+}
+
+.SDK-fourth-Wechart>img {
+    height: 100px;
+    width: 100px;
+}
+
+.SDK-fourth-Wechart>p {
+    width: 100px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.SDK-fourth-QQ {
+    width: 100px;
+    height: 100%;
+    float: right;
+    text-align: center;
+}
+
+.SDK-fourth-QQ>img {
+    text-align: center;
+}
+
+.SDK-fourth-QQ>p {
+    font-size: 12px;
+    text-align: center;
+}
+
+.bottom {
+    margin: 0 auto;
+    width: 90%;
+    height: 15px;
+    text-align: center;
+}
+
+.bottom>hr {
+    margin: 0px auto;
+}
+
+.bottom>p {
+    margin: 12px auto;
+    font-size: 12px;
+}
