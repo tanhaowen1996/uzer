@@ -16,76 +16,116 @@ body {
     background-color: rgb(76, 129, 226)
 }
 
-.head-navigation {
-    height: 58px;
+.download {
+    height: 381px;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0);
-    position: fixed;
-    margin: 0 auto;
-    left: 0;
-    right: 0;
-    z-index: 999;
-    text-align: center;
-}
-
-.nav-title {
-    height: 58px;
-    width: 1200px;
-    background-color: rgba(255, 255, 255, 0);
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-}
-
-.nav-logo {
-    width: 240px;
-    float: left;
     position: relative;
-    left: 25px;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 28%;
 }
 
-.nav-logo-img {
-    height: 27px;
-}
-
-.navigation {
-    float: left;
-    width: 416px;
-    padding-left: 10%;
-    position: relative;
-    left: 135px;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-.navigation>li {
-    list-style-type: none;
-    float: left;
+.download-content {
     height: 100%;
-    width: 104px;
-    text-align: center;
-    font-size: 15px;
+    width: 1200px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.nav-button {
-    height: 58px;
-    width: 20%;
+.download-left {
+    height: 100%;
+    width: 60%;
     float: left;
-    position: relative;
-    left: 135px;
 }
 
-.nav-button>button {
-    height: 32px;
-    width: 100px;
-    text-align: center;
-    background-color: #00074100;
-    border-bottom-color: #a7a4a4;
-    color: #a7a4a4;
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
+.download-left>img {
+    height: 360px;
+    width: 620px;
 }
+
+.download-right {
+    height: 100%;
+    width: 400px;
+    float: left;
+}
+
+.download-img {}
+
+.download-font {
+    font-size: 28px;
+    color: white;
+    position: relative;
+    top: 30px;
+}
+
+.download-button {
+    position: relative;
+    top: 60px;
+    height: 135px;
+}
+
+.download-first-line {
+    height: 75px;
+    width: 400px;
+}
+
+/*.download-first-line>button {
+    height: 60px;
+    width: 192px;
+    background-color: rgb(21, 40, 84);
+    border: none;
+    color: white;
+    font-size: 16px;
+}*/
+
+.btn {
+    display: inline-block;
+    height: 60px;
+    width: 192px;
+    background-color: rgb(21, 40, 84);
+    border: none;
+    color: white;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: rgb(57, 143, 255);
+}
+
+.btn img{
+    position: relative;
+    top: 15px;
+    left: 20px;
+}
+
+.btn span{
+    position: relative;
+    left: 40px;
+}
+
+.mac{
+    position: relative;
+    left: 10px;
+}
+
+.ios{
+    position: relative;
+    left: 10px;
+    
+}
+
+.download-first-line>a {
+
+}
+
+.download-second-line {
+    height: 60px;
+    width: 400px;
+}
+
+/*.download-second-line>button {
+    height: 60px;
+    width: 192px;
+    background-color: rgb(21, 40, 84);  /*rgb(57, 143, 255);
+    border: none;
+    color: white;
+} */

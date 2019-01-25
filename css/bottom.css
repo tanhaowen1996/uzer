@@ -1,0 +1,15 @@
+.bottom {
+    margin: 0 auto;
+    width: 90%;
+    height: 15px;
+    text-align: center;
+}
+
+.bottom>hr {
+    margin: 0px auto;
+}
+
+.bottom>p {
+    margin: 12px auto;
+    font-size: 12px;
+}

@@ -9,98 +9,25 @@ body {
 .page {
     height: 100%;
     width: 100%;
+    background: url("../img/bg.svg");    
+    background-repeat:repeat-x;
+    background-size: cover;
 }
 
 ::-webkit-scrollbar {
     width: 6px;
 }
 
-.head-navigation {
-    height: 58px;
-    width: 100%;
-    background-color: rgba(255, 255, 255, 0);
-    position: fixed;
-    margin: 0 auto;
-    left: 0;
-    right: 0;
-    z-index: 999;
-    text-align: center;
-}
-
-.nav-title {
-    height: 58px;
-    width: 1200px;
-    background-color: rgba(255, 255, 255, 0);
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-}
-
-.nav-logo {
-    width: 240px;
-    float: left;
-    position: relative;
-    left: 25px;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-.nav-logo-img {
-    height: 27px;
-}
-
-.navigation {
-    float: left;
-    width: 416px;
-    padding-left: 10%;
-    position: relative;
-    left: 135px;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-.navigation>li {
-    list-style-type: none;
-    float: left;
-    height: 100%;
-    width: 104px;
-    text-align: center;
-    font-size: 15px;
-}
-
-.nav-button {
-    height: 58px;
-    width: 20%;
-    float: left;
-    position: relative;
-    left: 135px;
-}
-
-.nav-button>button {
-    height: 32px;
-    width: 100px;
-    text-align: center;
-    background-color: #00074100;
-    border-bottom-color: #a7a4a4;
-    color: #a7a4a4;
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
 .first-bg {
     height: 100%;
-    width: 1200px;
-    background-color: rgb(76, 122, 207);
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
 }
 
 .first-content {
     width: 1200px;
     height: 100%;
-    float: left;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .first-left-content {
@@ -203,6 +130,13 @@ body {
     float: left;
     position: absolute;
     z-index: 9;
+    background: url("../img/beach_left.png");
+    background-repeat:repeat-x;
+    background-size: cover;
+}
+
+.second-phone{
+    
 }
 
 .second-right-content {
@@ -212,12 +146,18 @@ body {
     position: absolute;
     left: 50%;
     z-index: 9;
+    background: url("../img/working_bg.png");
+    background-repeat:repeat-x;
+    background-size: cover;
 }
 
 .third-bg {
     width: 100%;
     height: 572px;
-    background-color: darkolivegreen;
+    background: url("../img/section03_bg.svg");
+    margin-top:0; 
+    background-repeat:repeat-x;
+    background-size: cover;
 }
 
 .third-content {
@@ -278,7 +218,7 @@ body {
     height: 280px;
     width: 100%;
     text-align: center;
-    background-color: aqua;
+    background-color: white;
 }
 
 .fourth-title {
@@ -336,117 +276,4 @@ body {
     color: rgb(0, 119, 255);
     position: relative;
     top: 24%;
-}
-
-.sixth-bg {
-    height: 280px;
-    width: 100%;
-}
-
-.sixth-content {
-    height: 180px;
-    width: 1200px;
-    margin: 0 auto;
-    position: relative;
-    top: 20%;
-}
-
-.sixth-logo {
-    width: 235px;
-    height: 100%;
-    float: left;
-}
-
-.sixth-product {
-    float: left;
-    height: 100%;
-    width: 165px;
-    line-height: 34px;
-}
-
-.sixth-product>li {
-    list-style-type: none;
-    font-size: 12px;
-    line-height: 25px;
-}
-
-.sixth-company {
-    float: left;
-    height: 100%;
-    width: 165px;
-    line-height: 34px;
-}
-
-.sixth-company>li {
-    list-style-type: none;
-    font-size: 12px;
-    line-height: 25px;
-}
-
-.sixth-contact {
-    float: left;
-    height: 100%;
-    width: 165px;
-    line-height: 34px;
-}
-
-.sixth-contact>li {
-    list-style-type: none;
-    font-size: 12px;
-    line-height: 25px;
-}
-
-.sixth-right {
-    float: left;
-    height: 100%;
-    width: 300px;
-}
-
-.sixth-Wechart {
-    width: 150px;
-    height: 100%;
-    float: left;
-}
-
-.sixth-Wechart>img {
-    height: 100px;
-    width: 100px;
-}
-
-.sixth-Wechart>p {
-    width: 100px;
-    font-size: 12px;
-    text-align: center;
-}
-
-.sixth-QQ {
-    width: 100px;
-    height: 100%;
-    float: right;
-    text-align: center;
-}
-
-.sixth-QQ>img {
-    text-align: center;
-}
-
-.sixth-QQ>p {
-    font-size: 12px;
-    text-align: center;
-}
-
-.bottom {
-    margin: 0 auto;
-    width: 90%;
-    height: 15px;
-    text-align: center;
-}
-
-.bottom>hr {
-    margin: 0px auto;
-}
-
-.bottom>p {
-    margin: 12px auto;
-    font-size: 12px;
 }
