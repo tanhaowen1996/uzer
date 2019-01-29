@@ -27,7 +27,7 @@
             </div>
         </div>
     </nav>
-    <div class="SDK-first">
+    <div class="SDK-first first-bg">
         <div class="SDK-first-section">
             <div class="SDK-first-left">
                 <div class="SDK-first-bg">
@@ -87,17 +87,22 @@
             </div>
         </div>
     </div>
-    <div class="SDK-third">
+    <div class="SDK-third third-bg">
         <div class="SDK-third-section">
             <div>
                 <div class="SDK-third-title">应用案例</div>
             </div>
-            <div class="SDK-third-warp" data-ride="carousel">
+            <div class="SDK-third-warp" id="SDK-loop-warp">
+                <input type="radio" name="slider" id="first">
+                <input type="radio" name="slider" id="second">
+                <input type="radio" name="slider" id="third">
+                <input type="radio" name="slider" id="fourth">
+                <input type="radio" name="slider" id="fifth">
                 <div class="SDK-third-loop-warp">
                     <div class="loop-warp-01">
                         <img src="img/icon-01.png" class="loop-image">
                         <div>网盘商&邮件商</div>
-                        
+
                     </div>
                     <div class="loop-warp-03">
                         <img src="img/icon-02.png" class="loop-image">
@@ -117,11 +122,13 @@
                     </div>
                 </div>
                 <div class="SDK-third-loop-text">
-                    <div class="SDK-loop-text active">接入EaaS之后，用户可以在线打开编辑各种附件。对于用户来说，那些保密性比较高的文档可以做到文件不落地的在线打开、编辑、保存、发送。对于附件比较大的用户来说，免除了原来下载编辑再上传的繁琐步骤，极大的提升了用户的使用效率和体验。让邮件和网盘进入更具价值的2.0时代。</div>
-                    <div class="SDK-loop-text">在接入EaaS之前，在线教育还停留在传统的观看视频无互动的1.0时代，虽然加入了直播功能，但仍然无法满足学员与老师进行高效的实时沟通需求，老师也无法及时了解学生的学习情况。接入EaaS之后，学员和老师同屏操作，实时高效沟通，如同置身于同一教室内，将在线教育带入到实时沟通高效互动的2.0时代。</div>
-                    <div class="SDK-loop-text">通过EaaS提供的在线编辑能力可以确保项目团队无论在工地还是在客户办公室都能随时查看工程图纸、照片、合同等。无论移动端还是WEB端，都支持预览Office、PDF、CAD图纸等文件。项目经理可以随时随地了解工程动态信息，实时掌控项目进度为决策提供辅助依据。此外，通过EaaS的在线编辑能力可以让设计方、施工方和业主在同一平台内无障碍交流，解决跨组织、跨专业、跨地域的多方协作问题，提升沟通效率，节省沟通成本。</div>
-                    <div class="SDK-loop-text">接入EaaS服务之后，不管WEB端还是手机端，都可以直接在线预览PSD、AI、GIF、TIF等各种广告行业常用格式的文件，免去安装各种大型软件的难题。此外，EaaS强大的在线编辑和协作功能，让项目团队所有成员实时协作沟通，大大加快项目进度。</div>
-                    <div class="SDK-loop-text">传统的CRM、ERP、OA等系统对于需要修改的文件需要先下载再编辑再保存，这样会浪费大量的人力和时间成本，接入EaaS之后，员工除了可以在线对文档进行修改、编辑、保存，除了节省时间和人力成本之外，文件将会一直保存在服务器端，保证数据安全。</div>
+                    <div id="slider">
+                        <div class="SDK-loop-text">接入EaaS之后，用户可以在线打开编辑各种附件。对于用户来说，那些保密性比较高的文档可以做到文件不落地的在线打开、编辑、保存、发送。对于附件比较大的用户来说，免除了原来下载编辑再上传的繁琐步骤，极大的提升了用户的使用效率和体验。让邮件和网盘进入更具价值的2.0时代。</div>
+                        <div class="SDK-loop-text">在接入EaaS之前，在线教育还停留在传统的观看视频无互动的1.0时代，虽然加入了直播功能，但仍然无法满足学员与老师进行高效的实时沟通需求，老师也无法及时了解学生的学习情况。接入EaaS之后，学员和老师同屏操作，实时高效沟通，如同置身于同一教室内，将在线教育带入到实时沟通高效互动的2.0时代。</div>
+                        <div class="SDK-loop-text">通过EaaS提供的在线编辑能力可以确保项目团队无论在工地还是在客户办公室都能随时查看工程图纸、照片、合同等。无论移动端还是WEB端，都支持预览Office、PDF、CAD图纸等文件。项目经理可以随时随地了解工程动态信息，实时掌控项目进度为决策提供辅助依据。此外，通过EaaS的在线编辑能力可以让设计方、施工方和业主在同一平台内无障碍交流，解决跨组织、跨专业、跨地域的多方协作问题，提升沟通效率，节省沟通成本。</div>
+                        <div class="SDK-loop-text">接入EaaS服务之后，不管WEB端还是手机端，都可以直接在线预览PSD、AI、GIF、TIF等各种广告行业常用格式的文件，免去安装各种大型软件的难题。此外，EaaS强大的在线编辑和协作功能，让项目团队所有成员实时协作沟通，大大加快项目进度。</div>
+                        <div class="SDK-loop-text">传统的CRM、ERP、OA等系统对于需要修改的文件需要先下载再编辑再保存，这样会浪费大量的人力和时间成本，接入EaaS之后，员工除了可以在线对文档进行修改、编辑、保存，除了节省时间和人力成本之外，文件将会一直保存在服务器端，保证数据安全。</div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -131,22 +138,24 @@
             <div class="contact-logo">
                 <img src="img/logo_untext.svg" />
             </div>
-            <div class="contact-product">
-                <span>产品</span>
-                <li><a>产品概述</a></li>
-                <li><a>在线编辑SDK/API</a></li>
-                <li><a>客户端下载</a></li>
-            </div>
-            <div class="contact-company">
-                <span>公司</span>
-                <li><a>公司简介</a></li>
-                <li><a>论坛</a></li>
-                <li><a>加入我们</a></li>
-            </div>
-            <div class="contact-information">
-                <span>联系方式</span>
-                <li><a>021-50890310</a></li>
-                <li><a>support@uzer.me</a></li>
+            <div class="contact-div">
+                <div class="contact-product">
+                    <span>产品</span>
+                    <li><a>产品概述</a></li>
+                    <li><a>在线编辑SDK/API</a></li>
+                    <li><a>客户端下载</a></li>
+                </div>
+                <div class="contact-company">
+                    <span>公司</span>
+                    <li><a>公司简介</a></li>
+                    <li><a>论坛</a></li>
+                    <li><a>加入我们</a></li>
+                </div>
+                <div class="contact-information">
+                    <span>联系方式</span>
+                    <li><a>021-50890310</a></li>
+                    <li><a>support@uzer.me</a></li>
+                </div>
             </div>
             <div class="contact-right">
                 <div class="contact-Wechart">
