@@ -13,7 +13,12 @@ body {
 .download-all {
     width: 100%;
     height: 100%;
-    background-color: rgb(76, 129, 226)
+    background: -moz-linear-gradient(rgb(0, 130, 255), rgb(190, 230, 255));
+    background: -webkit-gradient(linear, center top, center bottom, from(rgb(0, 130, 255)), to(rgb(190, 230, 255)));
+    background: -webkit-linear-gradient(rgb(0, 130, 255), rgb(190, 230, 255));
+    background: -o-linear-gradient(rgb(0, 130, 255), rgb(190, 230, 255));
+    background: -ms-linear-gradient(rgb(0, 130, 255), rgb(190, 230, 255));
+    background: linear-gradient(rgb(0, 130, 255), rgb(190, 230, 255));
 }
 
 .download {
@@ -48,7 +53,6 @@ body {
     float: left;
 }
 
-.download-img {}
 
 .download-font {
     font-size: 28px;

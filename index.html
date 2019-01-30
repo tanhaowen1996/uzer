@@ -8,25 +8,26 @@
     <link rel="stylesheet" type="text/css" href="css/header.css">
     <link rel="stylesheet" type="text/css" href="css/contact.css">
     <link rel="stylesheet" type="text/css" href="css/bottom.css">
+    <script src="js/header.js"></script>
     <title>uzer.me</title>
 </head>
 
 <body>
     <div class="page">
-        <nav class="head-navigation">
-            <div class="nav-title">
+        <nav class="head-navigation" id="head-nav">
+            <div class="nav-title" id="head-title">
                 <div class="nav-logo">
-                    <a href="index.html">
-                        <img class="nav-logo-img" src="img/logo_header.svg" />
-                    </a>
+                    <a href="index.html"><img id="img-logo" class="nav-logo-img" src="img/logo_header.svg" /></a>
                 </div>
                 <div class="navigation">
                     <li><a href="index.html">首页</a></li>
                     <li><a href="SDK.html">SDK</a></li>
                     <li><a href="download.html">下载</a></li>
                     <li><a href="">论坛</a></li>
-                    <li><a class="nav-button" href="">登录</a></li>
-                    <li><a class="nav-button" href="">注册</a></li>
+                </div>
+                <div class="nav-button">
+                    <button>登录</button>
+                    <button>注册</button>
                 </div>
             </div>
         </nav>
@@ -51,7 +52,7 @@
             </div>
             <div class="second-left-content">
                 <div class="second-phone">
-                    
+
                 </div>
             </div>
             <div class="second-right-content">
@@ -122,9 +123,11 @@
             </div>
         </div>
         <div class="bottom">
-            <hr />
-            <p>Copyright&nbsp;©&nbsp;2017&nbsp;UZER.ME&nbsp;&nbsp;&nbsp;皖ICP备&nbsp;17005984号-1&nbsp;&nbsp;&nbsp;皖公网安备&nbsp;34010402701318&nbsp;UZER.ME隶属于上海谐桐信息技术有限公司</p>
+            <div class="bottom-line"></div>
+            <!--<hr />-->
+            <div class="bottom-text">Copyright&nbsp;©&nbsp;2017&nbsp;UZER.ME&nbsp;&nbsp;&nbsp;皖ICP备&nbsp;17005984号-1&nbsp;&nbsp;&nbsp;皖公网安备&nbsp;34010402701318&nbsp;UZER.ME隶属于上海谐桐信息技术有限公司</div>
         </div>
+    </div>
     </div>
 </body>
 

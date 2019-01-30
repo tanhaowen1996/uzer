@@ -3,17 +3,19 @@
 
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="css/second.css">
+    <link rel="stylesheet" type="text/css" href="css/sdk.css">
     <link rel="stylesheet" type="text/css" href="css/contact.css">
     <link rel="stylesheet" type="text/css" href="css/bottom.css">
+    <link rel="stylesheet" type="text/css" href="css/header.css">
+    <script src="js/header.js" type="text/javascript"></script>
     <title>SDK</title>
 </head>
 
 <body>
-    <nav class="head-navigation">
-        <div class="nav-title">
+    <nav class="head-navigation" id="head-nav">
+        <div class="nav-title" id="head-title">
             <div class="nav-logo">
-                <a href="index.html"><img class="nav-logo-img" src="img/logo_untext.svg" /></a>
+                <a href="index.html"><img id="img-logo" class="nav-logo-img" src="img/logo_header.svg"></a>
             </div>
             <div class="navigation">
                 <li><a href="index.html">首页</a></li>
@@ -99,29 +101,29 @@
                 <input type="radio" name="slider" id="fourth">
                 <input type="radio" name="slider" id="fifth">
                 <div class="SDK-third-loop-warp">
-                    <div class="loop-warp-01">
+                    <div class="loop-warp-01" for="first">
                         <img src="img/icon-01.png" class="loop-image">
                         <div>网盘商&邮件商</div>
 
                     </div>
-                    <div class="loop-warp-03">
+                    <div class="loop-warp-03" for="second">
                         <img src="img/icon-02.png" class="loop-image">
                         <div>在线教育</div>
                     </div>
-                    <div class="loop-warp-04">
+                    <div class="loop-warp-04" for="third">
                         <img src="img/icon-03.png" class="loop-image">
                         <div>工程建筑</div>
                     </div>
-                    <div class="loop-warp-05">
+                    <div class="loop-warp-05" for="fourth">
                         <img src="img/icon-04.png" class="loop-image">
                         <div>广告设计</div>
                     </div>
-                    <div class="loop-warp-02">
+                    <div class="loop-warp-02" for="fifth">
                         <img src="img/icon-05.png" class="loop-image">
                         <div>企业软件开发商</div>
                     </div>
                 </div>
-                <div class="SDK-third-loop-text">
+                <div class="SDK-third-loop-text" id="warp">
                     <div id="slider">
                         <div class="SDK-loop-text">接入EaaS之后，用户可以在线打开编辑各种附件。对于用户来说，那些保密性比较高的文档可以做到文件不落地的在线打开、编辑、保存、发送。对于附件比较大的用户来说，免除了原来下载编辑再上传的繁琐步骤，极大的提升了用户的使用效率和体验。让邮件和网盘进入更具价值的2.0时代。</div>
                         <div class="SDK-loop-text">在接入EaaS之前，在线教育还停留在传统的观看视频无互动的1.0时代，虽然加入了直播功能，但仍然无法满足学员与老师进行高效的实时沟通需求，老师也无法及时了解学生的学习情况。接入EaaS之后，学员和老师同屏操作，实时高效沟通，如同置身于同一教室内，将在线教育带入到实时沟通高效互动的2.0时代。</div>
@@ -170,8 +172,9 @@
         </div>
     </div>
     <div class="bottom">
-        <hr />
-        <p>Copyright&nbsp;©&nbsp;2017&nbsp;UZER.ME&nbsp;&nbsp;&nbsp;皖ICP备&nbsp;17005984号-1&nbsp;&nbsp;&nbsp;皖公网安备&nbsp;34010402701318&nbsp;UZER.ME隶属于上海谐桐信息技术有限公司</p>
+        <div class="bottom-line"></div>
+        <!--<hr />-->
+        <div class="bottom-text">Copyright&nbsp;©&nbsp;2017&nbsp;UZER.ME&nbsp;&nbsp;&nbsp;皖ICP备&nbsp;17005984号-1&nbsp;&nbsp;&nbsp;皖公网安备&nbsp;34010402701318&nbsp;UZER.ME隶属于上海谐桐信息技术有限公司</div>
     </div>
     </div>
 </body>

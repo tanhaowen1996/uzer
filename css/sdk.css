@@ -6,24 +6,29 @@ body {
     margin: 0;
 }
 
+body ::-webkit-scrollbar,
+html ::-webkit-scrollbar {
+    width: 6px;
+}
 
 
-.head-navigation {
+/*.head-navigation {
     height: 58px;
     width: 100%;
-    background-color: white;
+    background-color: #fff;
     position: fixed;
     margin: 0 auto;
     left: 0;
     right: 0;
     z-index: 999;
     text-align: center;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.1);
 }
 
 .nav-title {
     height: 58px;
     width: 1200px;
-    background-color: white;
+    background-color: #fff;
     position: absolute;
     left: 0;
     right: 0;
@@ -87,7 +92,9 @@ body {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
-}
+    padding: 0;
+    border: 1px solid rgba(221,221,221);
+}*/
 
 .SDK-first {
     height: 625px;
@@ -247,12 +254,12 @@ body {
     background: -o-linear-gradient(#fff, rgb(35, 147, 255) 50%, #fff);
     background: -ms-linear-gradient(#fff, rgb(35, 147, 255) 50%, #fff);
     background: linear-gradient(#fff, rgb(35, 147, 255) 50%, #fff);
-    /*background: -moz-linear-gradient(45deg, #fff, rgb(35, 147, 255) 50%, #fff);
+    /* background: -moz-linear-gradient(45deg, #fff, rgb(35, 147, 255) 50%, #fff);
     background: -webkit-gradient(linear, left bottom, right top, from(#fff), color-stop(.5, rgb(35, 147, 255)), to(#fff));
     background: -webkit-linear-gradient(45deg, #fff, rgb(35, 147, 255) 50%, #fff);
     background: -o-linear-gradient(45deg, #fff, rgb(35, 147, 255) 50%, #fff);
     background: -ms-linear-gradient(45deg, #fff, rgb(35, 147, 255) 50%, #fff);
-    background: linear-gradient(45deg, #fff, rgb(35, 147, 255) 50%, #fff);*/
+    background: linear-gradient(45deg, #fff, rgb(35, 147, 255) 50%, #fff); */
 }
 
 .SDK-third-section {
@@ -343,7 +350,7 @@ body {
     height: 90px;
 }
 
-#slider{
+#slider {
     width: 500%;
     height: 100%;
     margin-left: 0;
@@ -364,17 +371,285 @@ body {
 
 
 /*创建动画策略*/
-@keyframes slide1{
-    0% {margin-left: 0;}
-    24%{margin-left: 0;}
-    25%{margin-left: -100%;}
-    49%{margin-left: -100%;}
-    50%{margin-left: -200%;}
-    69%{margin-left: -200%;}
-    75%{margin-left: -300%;}
-    99%{margin-left: -300%;}
-    100%{margin-left: -400%;}
+@keyframes slide1 {
+    0% {
+        margin-left: 0;
+    }
+
+    19% {
+        margin-left: 0;
+    }
+
+    20% {
+        margin-left: -100%;
+    }
+
+    39% {
+        margin-left: -100%;
+    }
+
+    40% {
+        margin-left: -200%;
+    }
+
+    59% {
+        margin-left: -200%;
+    }
+
+    60% {
+        margin-left: -300%;
+    }
+
+    79% {
+        margin-left: -300%;
+    }
+
+    80% {
+        margin-left: -400%;
+    }
+
+    99% {
+        margin-left: -400%;
+    }
+
+    100% {
+        margin-left: 0;
+    }
 }
-#first,#second,#third,#fourth,#fifth{
+
+@keyframes slide2 {
+    0% {
+        margin-left: -100%;
+    }
+
+    19% {
+        margin-left: -100%;
+    }
+
+    20% {
+        margin-left: -200%;
+    }
+
+    39% {
+        margin-left: -200%;
+    }
+
+    40% {
+        margin-left: -300%;
+    }
+
+    59% {
+        margin-left: -300%;
+    }
+
+    60% {
+        margin-left: -400%;
+    }
+
+    79% {
+        margin-left: -400%;
+    }
+
+    80% {
+        margin-left: 0;
+    }
+
+    99% {
+        margin-left: 0;
+    }
+
+    100% {
+        margin-left: -100%;
+    }
+}
+
+@keyframes slide3 {
+    0% {
+        margin-left: -200%;
+    }
+
+    19% {
+        margin-left: -200%;
+    }
+
+    20% {
+        margin-left: -300%;
+    }
+
+    39% {
+        margin-left: -300%;
+    }
+
+    40% {
+        margin-left: -400%;
+    }
+
+    59% {
+        margin-left: -400%;
+    }
+
+    60% {
+        margin-left: 0;
+    }
+
+    79% {
+        margin-left: 0;
+    }
+
+    80% {
+        margin-left: -100%;
+    }
+
+    99% {
+        margin-left: -100%;
+    }
+
+    100% {
+        margin-left: -200%;
+    }
+}
+
+@keyframes slide4 {
+    0% {
+        margin-left: -300%;
+    }
+
+    19% {
+        margin-left: -300%;
+    }
+
+    20% {
+        margin-left: -400%;
+    }
+
+    39% {
+        margin-left: -400%;
+    }
+
+    40% {
+        margin-left: 0;
+    }
+
+    59% {
+        margin-left: 0;
+    }
+
+    60% {
+        margin-left: -100%;
+    }
+
+    79% {
+        margin-left: -100%;
+    }
+
+    80% {
+        margin-left: -200%;
+    }
+
+    99% {
+        margin-left: -200%;
+    }
+
+    100% {
+        margin-left: -300%;
+    }
+}
+
+@keyframes slide5 {
+    0% {
+        margin-left: -400%;
+    }
+
+    19% {
+        margin-left: -400%;
+    }
+
+    20% {
+        margin-left: 0;
+    }
+
+    39% {
+        margin-left: 0;
+    }
+
+    40% {
+        margin-left: -100%;
+    }
+
+    59% {
+        margin-left: -100%;
+    }
+
+    60% {
+        margin-left: -200%;
+    }
+
+    79% {
+        margin-left: -200%;
+    }
+
+    80% {
+        margin-left: -300%;
+    }
+
+    99% {
+        margin-left: -300%;
+    }
+
+    100% {
+        margin-left: -400%;
+    }
+}
+
+/* #first:checked~#wrap #slider {
+    -webkit-animation-name: slide1;
+}
+
+#second:checked~#wrap #slider {
+    -webkit-animation-name: slide2;
+}
+
+#third:checked~#wrap #slider {
+    -webkit-animation-name: slide3;
+}
+
+#fourth:checked~#wrap #slider {
+    -webkit-animation-name: slide4;
+}
+
+#fifth:checked~#wrap #slider {
+    -webkit-animation-name: slide5;
+}
+
+#first:active ~ #wrap #slider {
+    -webkit-animation-name:none;
+    margin-left:0;
+  }
+  
+  #second:active ~ #wrap #slider {
+    -webkit-animation-name:none;
+    margin-left:-995px;
+  }
+  
+  #third:active ~ #wrap #slider {
+    -webkit-animation-name:none;
+    margin-left:-1990px;
+  }
+
+  #fourth:active ~ #wrap #slider {
+    -webkit-animation-name:none;
+    margin-left:-3985;
+  }
+  
+  #fifth:active ~ #wrap #slider {
+    -webkit-animation-name:none;
+    margin-left:-4980px;
+  } */
+
+#first,
+#second,
+#third,
+#fourth,
+#fifth {
     display: none;
 }
